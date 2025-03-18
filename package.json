@@ -1,6 +1,6 @@
 {
   "name": "@thebolarin/narrative-analysis-ai",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "A service for generating narrative analysis using OpenAI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
