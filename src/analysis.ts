@@ -1,8 +1,14 @@
 import OpenAI from "openai";
 
+type Article = {
+    uniqueId: string,
+    title: string,
+    summary: string
+}
+
 type ResearchOptions = {
     researchQuestion: string,
-    articles: any[]
+    articles: Article[]
 }
 
 export class NarrativeAnalysis {
