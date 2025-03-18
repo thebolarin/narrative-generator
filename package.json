@@ -9,6 +9,10 @@
     "start": "node dist/index.js",
     "test": "echo \"No test specified\" && exit 0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebolarin/narrative-generator.git"
+  },
   "keywords": [
     "openai",
     "narrative analysis",
