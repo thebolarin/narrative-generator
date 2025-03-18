@@ -1,0 +1,23 @@
+{
+  "name": "@thebolarin/narrative-analysis-ai",
+  "version": "1.0.20",
+  "description": "A service for generating narrative analysis using OpenAI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "openai",
+    "narrative analysis",
+    "typescript"
+  ],
+  "author": "Moses Odutusin",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.87.3",
+    "typescript": "^5.1.3"
+  }
+}
